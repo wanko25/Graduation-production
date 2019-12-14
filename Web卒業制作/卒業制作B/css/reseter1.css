@@ -1,0 +1,92 @@
+﻿@charset "utf-8";
+
+/* リセッター */
+/* 
+html5doctor.com Reset Stylesheetv1.6.1 Last Updated: 2010-09-17 Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {line-height:1;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {
+    content:''; content:none;}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    color :#000;
+    text-decoration: none;
+}
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+input, select {vertical-align:middle;}
+
+ol, ul { list-style-position: inside; }
+
+/* リセッターここまで */
+
+body{
+	background-color:#000;
+}
+
+.font{
+	font-family:Franklin Gothic Medium;
+}
+
+.default{
+	font-family:Meiryo;
+}
+
+.etop{
+	margin:80px 0 20px 0;
+	color:#fff;
+	text-align:center;
+	font-size:30px;
+}
+
+.purple{
+	padding:50px 0;
+	margin:0 auto;
+	text-align:center;
+	color:#fff;
+	font-size:25px;
+	background-image: url("../images/event_bk02.jpg");
+	background-position:center;
+	background-repeat:repeat;
+	width:950px;
+}
+.midasi{
+	font-size:45px;
+}
